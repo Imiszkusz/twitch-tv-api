@@ -1,0 +1,140 @@
+  body {
+    background-color: rgb(255,255,180);
+  }
+
+
+  .container {
+    width: 90vw;
+    border: 2px solid;
+    background-color: yellow;
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem auto;
+  }
+
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+
+  .row > .title {
+    height: 8rem;
+    border-bottom: 4px solid;
+  }
+
+
+  .channel-row {
+    padding: 1rem;
+  }
+
+
+  .col-xs-1, .col-xs-11, .col-xs-12 {
+    border: 2px solid;
+    height: 6rem;
+    line-height: 1rem;
+    padding: .25rem;
+  }
+
+
+  .col-xs-1 {
+    border-right: none;
+    text-align: center;
+  }
+
+
+  .col-xs-11 {
+    text-align: left;
+    padding-top: 2.2rem;
+    padding-left: 1.5rem;
+  }
+
+
+  .col-xs-4 {
+    height: 7rem;
+    padding: .25rem;
+    border-right: 2px solid black;
+  }
+
+
+  .col-xs-8 {
+    height: 7rem;
+    padding: 1rem 0 0 1rem;
+    text-align: left;
+    line-height: 1.5rem;
+  }
+
+
+  .col-xs-8 p, .col-xs-8 a {
+    font-size: 1.25rem;
+  }
+
+
+  img {
+    max-width: 90%;
+    max-height: 100%;
+    border: 1px solid black;
+  }
+
+
+  .channel-link {
+    font-weight: 700;
+  }
+
+
+  .channel-link, .stream-state {
+    display: inline;
+    color: black;
+  }
+
+
+  .channel-link:hover, .channel-link:focus {
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+  }
+
+
+
+@media (min-width: 400px){
+  
+  .col-xs-4 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .col-xs-8 p, .col-xs-8 a {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  
+  
+  img {
+    max-width: 60%;
+    height: auto;
+  }
+}
+
+
+
+@media (min-width: 800px){
+  
+  .container {
+    width: 50vw;
+    border: 2px solid;
+    background-color: yellow;
+  }
+  
+  
+  .col-xs-1 {
+    padding: 0;
+  }
+  
+  
+  img {
+    width: 100%;
+    max-width: none;
+    max-height: 100%;
+    height: auto;
+  }
+}
